@@ -5,13 +5,6 @@ var unanswered = 0;
 var questionNum = 0;
 var timer = 30;
 
-// var question = document.getElementById('question')
-
-// var choice1 = document.getElementById('choice1');
-// var choice2 = document.getElementById('choice2');
-// var choice3 = document.getElementById('choice3');
-// var choice4 = document.getElementById('choice4');
-
 
 
 var start = function(){
@@ -31,22 +24,28 @@ var start = function(){
 
 
 var populateQuestion = function(){
-	startTimer = setInterval()
+	startTimer = setInterval(1000, timer)
 
-	var question = questionList[questionNum]['question'];
+	var question = questionList[questionNum].question;
 
 	var divQ = $('<div>');
 		divQ.attr({
 				'class': 'question',
 			
 			});
-	$('.content').append(DivQ);
+	$('.content').append(divQ);
 
 	populateAnswers();
 }
 
 var populateAnswers = function() {
+	var answer1 =  questionList[questionNum].choice1;
+ 	var answer2 =  questionList[questionNum].choice2;
+ 	var answer3 =  questionList[questionNum].choice3;
+ 	var answer4 =  questionList[questionNum].choice4;
 
+ 		$('.choice1').text(questionList[questionNum].choice1)
+ 			
 }
 
 // This function resets the game when 

@@ -1,0 +1,45 @@
+html {
+ background-color: #DEE4D9;
+ margin: 20px;
+}
+
+body {
+	background-color: #DEE4D9;
+}
+
+h1 {
+	text-align: center;
+}
+
+.wholeContentArea {
+	background-color: #DEE4D9;	
+	margin: 20px;
+}
+
+.headingSide {
+	background-color: #DEE4D9;
+}
+
+.mainHeading {
+	background-color: #FBD423;
+	color:#DC1023;
+	margin: 20px;
+}
+
+.contnentSide {
+	background-color: red;
+}
+
+.mainContent {
+	background-color: #4976B4;
+	margin: 20px;
+}
+
+.buttonSide {
+	background-color:#4976B4;
+}
+
+.mainButton {
+	background-color: #4976B4;
+	margin: 20px;
+}
